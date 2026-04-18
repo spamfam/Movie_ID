@@ -132,6 +132,8 @@ The Godfather (1972).srt  →  The Godfather (1972) {imdb-tt0068646}.srt
 
 - [ ] Allow user to input their own skip tag
 - [ ] Allow user to input their own file extensions
+- [ ] Add review mode to doublecheck existing imdb id#s
+- [ ] Add full-send mode
 
 ## Author
 

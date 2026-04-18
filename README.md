@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # 🎬 Movie_ID
 
-A Python tool that recursively scans a directory of movie folders and uses the [imdbinfo](https://github.com/tveronesi/imdbinfo) package to look up each movie's IMDB ID, renaming folders (and media files inside them) to include the ID in a standard format.
+A Python tool that recursively scans a directory of movie folders and uses the [imdbinfo](https://github.com/tveronesi/imdbinfo) package to look up each movie's IMDB ID, renaming folders (and media files inside them) to include the ID in a standard format to allow for easier media recognition from Plex or Jellyfin.
 
 Comes with a full **tkinter GUI** for interactive review and an **undo system** so nothing is ever permanent.
 
@@ -129,13 +128,11 @@ The Godfather (1972).srt  →  The Godfather (1972) {imdb-tt0068646}.srt
 - Rate limiting (0.5s between requests) is built in to avoid hitting IMDB servers too hard
 
 ---
+## Roadmap
+
+- [ ] Allow user to input their own skip tag
+- [ ] Allow user to input their own file extensions
 
 ## Author
 
 [spamfam](https://github.com/spamfam)
-=======
-# Movie_ID
-Python script to rename movie directories and files using IMDB's Cinemagoer package. Run while in directory containing media folders.
-
-This was a personal project to help me better organize my media library while practicing what I learned in my Python courses.
->>>>>>> b7ed76698e8b53015f37e4be9e0712fc3e7b1202

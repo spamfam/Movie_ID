@@ -63,17 +63,17 @@ pip install imdbinfo
 
 ### GUI mode (recommended)
 ```bash
-python rename_movies.py
+python movie_id.py
 ```
 Launches the graphical interface. Browse to your movies folder, toggle dry run on/off, hit Start, then review every match before anything is renamed.
 
 ### CLI mode
 ```bash
 # Dry run — preview only, nothing is renamed
-python rename_movies.py /path/to/movies
+python movie_id.py /path/to/movies
 
 # Live run — actually rename folders and files
-python rename_movies.py /path/to/movies --rename
+python movie_id.py /path/to/movies --rename
 ```
 
 ---
